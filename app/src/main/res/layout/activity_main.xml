@@ -30,7 +30,9 @@
                 app:layout_constraintBottom_toTopOf="@id/apply_text_btn"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                android:autofillHints=""
+                android:inputType="text" />
 
             <Button
                 android:id="@+id/apply_text_btn"
